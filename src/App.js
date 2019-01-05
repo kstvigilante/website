@@ -1,17 +1,23 @@
 import React, { Component } from 'react';
 import './App.css';
-import Footer from "./components/footer/Footer";
-import Header from "./components/header/Header";
-import Description from "./components/description/Description";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Projects from "./pages/Projects";
+import Contact from "./pages/Contact";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 class App extends Component {
   render() {
     return (
-      <div className = "container">
-        <Header/>
-        <Description/>
-        <Footer/>
-      </div>
+      <Router>
+        <div>
+          <Route exact path = "/" component = {Home}/>
+          <Route path = "/about" component = {About}/>
+          <Route path = "/projects" component = {Projects}/>
+          <Route path = "/contact" component = {Contact}/>
+        </div>
+      </Router>
+
     );
   }
 }
