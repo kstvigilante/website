@@ -1,0 +1,94 @@
+.desc{
+    margin-top: 10%;
+    display: flex;
+}
+
+.desc-content{
+    flex: 1;
+}
+
+.avatar-box{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.avatar{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile-image{
+    width: 200px;
+    height: 200px;
+    background: url("/profile.jpg");
+    background-size: cover;
+    border-radius: 50%;
+    margin-top: 5%;
+}
+
+.profile-text{
+    text-align: center;
+    width: 100%;
+    color: black;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+
+.job-title{
+    margin-top: 1%;
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.hello{
+    margin-top: 1%;
+    color: white;
+    font-weight: bolder;
+    font-size: 48px;
+    text-transform: capitalize;
+}
+
+.name{
+    margin-top: 1%;
+    color: #2a2a2b;
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-shadow: 4px 4px 4px #aaa;
+}
+
+.lil-intro{
+    margin-top: 3%;
+    color: #2a2a2b;
+    font-weight: bold;
+}
+
+.connect-btn{
+    width: 150px;
+    height: 50px;
+    margin-top: 3%;
+    border-radius: 30px;
+    border: 0;
+    background: white;
+    text-transform: capitalize;
+}
+
+.hire-btn{
+    width: 150px;
+    height: 50px;
+    margin-left: 3%;
+    margin-top: 3%;
+    border-radius: 30px;
+    border: 0;
+    background: #16ac5f;
+    color: white;
+    text-transform: capitalize;
+}
