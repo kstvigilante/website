@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Header from "../components/header/Header";
-import Footer from "../components/footer/Footer";
+import Connect from "../components/connect/Connect";
 
 class Contact extends Component {
 
@@ -12,7 +12,7 @@ class Contact extends Component {
     return (
       <div className="container">
         <Header />
-        <Footer />
+        <Connect />
       </div>
     );
   }

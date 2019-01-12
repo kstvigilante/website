@@ -4,6 +4,10 @@
     justify-content: space-between;
 }
 
+p{
+    margin: 0;
+}
+
 .project{
     width: 30%;
     margin-top: 5%;
@@ -31,8 +35,8 @@
 }
 
 .proImage{
-    width: 340px;
-    height: 192px;
+    width: 320px;
+    height: 180px;
 }
 
 #eosbluffImg{
@@ -69,11 +73,12 @@
 
 .tech{
     margin:2% 0;
-    padding: 3%;
-    width: auto;
+    padding: 2% 2% 2% 2%;
+    width: 25%;
     background: teal;
     color: white;
     border-radius: 6px;
+    text-align: center;
 }
 
 .tech:hover{
@@ -84,4 +89,8 @@
 
 a:link{
     text-decoration: none;
+}
+
+.bold-custom-text{
+    font-weight: bold;
 }
