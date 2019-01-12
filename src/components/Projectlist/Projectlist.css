@@ -12,14 +12,22 @@
     align-items: center;
     border: 1px solid white;
     background: white;
+    text-transform: capitalize;
+    border-radius: 6px;
+}
+
+.project div{
+    margin-top: 2%;
 }
 
 .project hr{
     width: 100%;
-    height: 5px;
+    height: 10px;
     border: 0;
     margin: 0;
-    background: black;
+    background: #FFA07A;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
 }
 
 .proImage{
@@ -45,4 +53,35 @@
 #thiswebsiteImg{
     background: url("/mywebsite.png");
     background-size: 100% 100%;
+}
+
+.contribution p{
+    margin: 0%;
+    text-align: center;
+}
+
+.tech-used{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.tech{
+    margin:2% 0;
+    padding: 3%;
+    width: auto;
+    background: teal;
+    color: white;
+    border-radius: 6px;
+}
+
+.tech:hover{
+    transition: 0.5s;
+    background: white;
+    color: black;
+}
+
+a:link{
+    text-decoration: none;
 }
