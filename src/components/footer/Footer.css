@@ -1,5 +1,18 @@
 .footer{
     margin-top: 10%;
+}
+
+.footer-title{
+    font-family: 'Tangerine', serif;
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+.social-links{
+    padding: 2% 0;
     display: flex;
     justify-content: space-between;
 }

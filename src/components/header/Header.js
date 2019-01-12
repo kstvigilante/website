@@ -10,10 +10,10 @@ const Header = () =>{
                 
             </div>
             <div className = "links">
-                <Link to = "/" className = "link">home</Link>
-                <Link to = "/about" className = "link">about</Link>
-                <Link to = "/projects" className = "link">projects</Link>
-                <Link to = "/contact" className = "link">contact me</Link>
+                <Link to = "/" className = "link" id = "homepage">home</Link>
+                <Link to = "/about" className = "link" id = "aboutpage">about</Link>
+                <Link to = "/projects" className = "link" id = "projectspage">projects</Link>
+                <Link to = "/contact" className = "link" id = "contactpage">contact me</Link>
             </div>
         </div>
     )
