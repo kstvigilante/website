@@ -19,7 +19,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .profile-image{
@@ -91,4 +91,17 @@
     background: #16ac5f;
     color: white;
     text-transform: capitalize;
+}
+
+@media only screen and (max-width: 710px){
+    .desc{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .desc-content{
+        margin-top: 5%;
+    }
 }

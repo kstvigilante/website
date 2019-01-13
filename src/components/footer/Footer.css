@@ -12,11 +12,12 @@
 }
 
 .social-links{
-    padding: 2% 0;
+    padding-bottom: 2%;
     display: flex;
     justify-content: space-between;
 }
 
 .icons{
     font-size: 25px;
+    color: black;
 }
