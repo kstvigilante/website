@@ -17,7 +17,7 @@ const Description = () =>{
                 <div className = "job-title">professional web developer</div>
                 <div className = "hello">hello my name is</div>
                 <div className = "name">kunwar siddharth thakur</div>
-                <div className = "lil-intro">i am full stack developer currently working
+                <div className = "lil-intro">i am a full stack developer currently working
                 at innotical solution pvt ltd and living in noida
                 </div>
                 <button className = "connect-btn">connect</button>
