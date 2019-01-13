@@ -37,10 +37,20 @@
     font-size: 40px;
     text-transform: capitalize;
     font-weight: bold;
+    width: 200px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
-.tangerine-font .icons{
-    margin-left: 30px;
+.title-social{
+    width: 80%;
+    font-weight: bold;
+    text-transform: capitalize;
 }
+
+span{
+    font-weight: bold;
+    text-transform: capitalize;
+}
+

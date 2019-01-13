@@ -5,13 +5,9 @@ import Exp from "../components/experience/Exp";
 
 class About extends Component {
 
-    componentDidMount(){
-        document.getElementById("aboutpage").style.backgroundColor = "#16ac5f";
-    }
-
   render() {
     return (
-      <div className="container">
+      <div>
         <Header />
         <Exp />
         <Footer />

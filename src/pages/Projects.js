@@ -5,13 +5,9 @@ import ProjectList from "../components/Projectlist/Projectlist";
 
 class Projects extends Component {
 
-  componentDidMount(){
-    document.getElementById("projectspage").style.backgroundColor = "#16ac5f";
-  }
-
   render() {
     return (
-      <div className="container">
+      <div>
         <Header />
         <ProjectList/>
         <Footer />

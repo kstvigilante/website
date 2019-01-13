@@ -3,6 +3,7 @@ import "./Exp.css";
 
 const Exp = () => {
     return (
+        <div className = "container">
         <div className="exp-edu">
             <div className="exp">
                 <div className = "exp-content">
@@ -38,6 +39,7 @@ const Exp = () => {
                     </div>     
                 </div>
             </div>
+        </div>
         </div>
     );
 };

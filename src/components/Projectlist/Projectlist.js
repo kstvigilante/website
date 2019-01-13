@@ -3,6 +3,7 @@ import "./Projectlist.css";
 
 const Projectlist = () =>{
     return(
+        <div className = "container">
         <div className = "projectList">
             <div className = "project">
                 <hr></hr>
@@ -74,6 +75,7 @@ const Projectlist = () =>{
                     <div className = "tech">react</div>
                 </div>
             </div>
+        </div>
         </div>
     )
 }

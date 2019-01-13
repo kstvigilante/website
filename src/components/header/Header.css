@@ -1,46 +1,17 @@
-.header{
-    display: flex;
-    margin-top: 2%;
-    height: 60px;
-}
-
-.header .title{
-    width: 50%;
-    color: white;
+.cust-logo{
     display: flex;
     align-items: center;
-}
-
-.title span{
-    margin-left: 5%;
-    font-family: 'Tangerine', serif;
-    font-size: 40px;
-    text-transform: capitalize;
-    font-weight: bold;
-}
-
-.header .links{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 50%;
-}
-
-.links .link{
-    color: white;
-    height: 80%;
-    line-height: 48px;
-    padding: 0 5%;
-    font-weight: bolder;
-    text-transform: capitalize;
-    border-radius: 30px;
-    text-decoration: none;
-}
-
-Link{
-    text-decoration: none;
 }
 
 .file-icon{
-    font-size: 50px;
+    font-size: 36px;
+    height: 80%;
+}
+
+.header span{
+    font-family: 'Tangerine', serif;
+}
+
+.header{
+    background:  #ee6e73;
 }

@@ -3,6 +3,7 @@ import "./Description.css";
 
 const Description = () =>{
     return (
+        <div className = "container">
         <div className = "desc">
             
             <div className = "desc-content">
@@ -21,6 +22,7 @@ const Description = () =>{
                     <div className = "profile-text">mern stack developer plus smart contracts (eosio blockchain)</div>
                 </div>
             </div>
+        </div>
         </div>
     )
 };

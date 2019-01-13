@@ -3,6 +3,7 @@ import "./Footer.css";
 
 const Footer = () => {
     return (
+        <div className = "container">
         <div className="footer">
             <div className="footer-title">social links</div>
             <div className="social-links">
@@ -15,6 +16,7 @@ const Footer = () => {
                 <i className="fab fa-quora icons"></i>
             </div>
 
+        </div>
         </div>
     )
 };
